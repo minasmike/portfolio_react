@@ -13,12 +13,19 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold">
-                <p>Hi. I'm Menelik, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repudiandae minima id, voluptas, aliquam reprehenderit distinctio veniam nam iste atque reiciendis beatae ab doloremque eum ipsum culpa accusamus fuga in adipisci hic, sapiente minus placeat. Vel quidem illo tempore aspernatur illum a velit ut delectus, facere fuga ducimus nobis minus.</p>
-            </div>
+          <div className="sm:text-right text-4xl font-bold">
+            <p>Hi. I'm Menelik, nice to meet you. Please take a look around.</p>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores repudiandae minima id, voluptas, aliquam reprehenderit
+              distinctio veniam nam iste atque reiciendis beatae ab doloremque
+              eum ipsum culpa accusamus fuga in adipisci hic, sapiente minus
+              placeat. Vel quidem illo tempore aspernatur illum a velit ut
+              delectus, facere fuga ducimus nobis minus.
+            </p>
+          </div>
         </div>
       </div>
     </div>
