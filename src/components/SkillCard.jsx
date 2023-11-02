@@ -7,7 +7,7 @@ const SkillCard = ({ SkillItem }) => {
   return (
     
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-        <img className="w-20 mx-auto" src={ImgSrc} alt={AltText} />
+        <img className="w-24 mx-auto" src={ImgSrc} alt={AltText} />
         <p className="my-4 font-semibold">{SkillName}</p>
       </div>
   );

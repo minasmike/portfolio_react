@@ -15,8 +15,8 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
-          <p>
-            Submit the form below or use an email - menelikmichael@gmail.com
+          <p className="font-bold pt-2 text-gray-400">
+            Submit the form below or use an email - <a className="text-gray-300 hover:text-pink-300" href="mailto:menelikmichael@gmail.com">menelikmichael@gmail.com</a> 
           </p>
         </div>
         <input
@@ -25,6 +25,7 @@ const Contact = () => {
           name="name"
           id=""
           placeholder="Name"
+          required
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6]"
@@ -32,11 +33,14 @@ const Contact = () => {
           name="Email"
           id=""
           placeholder="Email"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
           rows="10"
+          placeholder="Message"
+          required
         ></textarea>
         <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
