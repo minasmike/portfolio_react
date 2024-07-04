@@ -13,11 +13,14 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a Full stack Developer.
         </h2>
+
+        <h3 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+           "Empowering Digital Experiences with Code" </h3>
         <p className="text-[#9292b0] py-4 max-w-[700px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-          expedita necessitatibus sunt? Est nulla voluptate aliquam optio odio
-          ipsa saepe incidunt repellendus, labore laudantium ea consequatur rem
-          dignissimos, quam ex?
+         As a seasoned Full Stack
+          Developer with 2.5 years of experience, I craft innovative web
+          solutions that blend cutting-edge technology with user-centric design.
+          Let's transform ideas into reality together.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
