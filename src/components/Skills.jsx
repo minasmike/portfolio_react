@@ -1,25 +1,24 @@
 import React from "react";
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
+import AWS from "../assets/aws.png";
+import Postgre from "../assets/postgre.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
+import Go from "../assets/icons8-golang-250.png";
+import Docker from "../assets/icons8-docker-250.png";
+import Graphql from "../assets/icons8-graphql-250.png"
+import Python from "../assets/icons8-python-250.png";
 import SkillCard from "./SkillCard";
 
 const skills = () => {
   const SkillList = [
     {
-      ImgSrc: `${HTML}`,
-      AltText: "HTML icon",
-      SkillName: "HTML",
-    },
-    {
-      ImgSrc: `${CSS}`,
-      AltText: "CSS icon",
-      SkillName: "CSS",
+      ImgSrc: `${AWS}`,
+      AltText: "AWS icon",
+      SkillName: "AWS",
     },
     {
       ImgSrc: `${JavaScript}`,
@@ -32,9 +31,14 @@ const skills = () => {
       SkillName: "REACT",
     },
     {
-      ImgSrc: `${GitHub}`,
-      AltText: "Github icon",
-      SkillName: "GITHUB",
+      ImgSrc: `${Go}`,
+      AltText: "GO icon",
+      SkillName: "GOLANG",
+    },
+    {
+      ImgSrc: `${Python}`,
+      AltText: "Python icon",
+      SkillName: "Python",
     },
     {
       ImgSrc: `${Node}`,
@@ -42,15 +46,38 @@ const skills = () => {
       SkillName: "NODE",
     },
     {
-      ImgSrc: `${Mongo}`,
-      AltText: "Mongo db icon",
-      SkillName: "Mongo DB",
+      ImgSrc: `${GitHub}`,
+      AltText: "Github icon",
+      SkillName: "GITHUB",
     },
+
     {
       ImgSrc: `${Tailwind}`,
       AltText: "Tailwind icon",
       SkillName: "TAILWINDS",
     },
+    {
+      ImgSrc: `${Docker}`,
+      AltText: "Docker icon",
+      SkillName: "Docker",
+    },
+    {
+      ImgSrc: `${Graphql}`,
+      AltText: "Grahql icon",
+      SkillName: "Graphql",
+    },
+    {
+      ImgSrc: `${Mongo}`,
+      AltText: "Mongo db icon",
+      SkillName: "Mongo DB",
+    },
+    {
+      ImgSrc: `${Postgre}`,
+      AltText: "PostgreSQL icon",
+      SkillName: "POSTGRESQL",
+    },
+
+
   ];
   return (
     <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
