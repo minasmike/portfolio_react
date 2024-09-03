@@ -91,7 +91,7 @@ const Navbar = () => {
       </ul>
       {/* {social icons} */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ui>
+        <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center">
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-12px] duration-300 bg-blue-600 p-2"
@@ -130,7 +130,7 @@ const Navbar = () => {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-        </ui>
+        </ul>
       </div>
     </div>
   );
