@@ -91,7 +91,7 @@ const skills = () => {
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           {SkillList.map((SkillItem) => (
-            <SkillCard SkillItem={SkillItem} />
+            <SkillCard SkillItem={SkillItem} key={SkillItem.AltText} />
           ))}
         </div>
       </div>

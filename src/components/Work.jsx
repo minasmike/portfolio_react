@@ -37,7 +37,7 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           {WorkList.map((WorkItem) => (
-            <WorkCard WorkItem={WorkItem} />
+            <WorkCard WorkItem={WorkItem} key={WorkItem.BodyMsg} />
           ))}
         </div>
       </div>

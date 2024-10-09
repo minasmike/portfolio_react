@@ -18,12 +18,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores repudiandae minima id, voluptas, aliquam reprehenderit
-              distinctio veniam nam iste atque reiciendis beatae ab doloremque
-              eum ipsum culpa accusamus fuga in adipisci hic, sapiente minus
-              placeat. Vel quidem illo tempore aspernatur illum a velit ut
-              delectus, facere fuga ducimus nobis minus.
+            With over two years of full stack development experience, I specialize in building efficient, user-focused digital solutions. My background in graphics and motion design enhances my ability to blend technical expertise with creativity, delivering not only responsive, scalable websites but also compelling visuals and animations. I’m passionate about crafting seamless, engaging experiences that combine functionality with style. Let’s collaborate to turn your vision into reality.
+
+
             </p>
           </div>
         </div>

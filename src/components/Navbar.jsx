@@ -6,7 +6,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -18,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo image" style={{ width: "80px" }} />
+        <img src={Logo} alt="Logo" style={{ width: "80px" }} />
       </div>
       {/* {menu} */}
       <div>
@@ -91,13 +90,13 @@ const Navbar = () => {
       </ul>
       {/* {social icons} */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ui>
+        <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center">
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-12px] duration-300 bg-blue-600 p-2"
               href="https://www.linkedin.com/in/menelik-michael/"
               target="_blank"
-              rel="author"
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -106,7 +105,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-12px] duration-300 bg-[#333333] p-2"
               href="https://github.com/minasmike"
-              rel="author"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Github <FaGithub size={30} />
@@ -116,7 +115,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300 ml-[-100px] hover:ml-[-12px] duration-300 bg-[#6fc2b0] p-2"
               href="mailto:menelikmichael@gmail.com"
-              rel="author"
+              rel="noopener noreferrer"
               target="_blank"
             >
               Email <HiOutlineMail size={30} />
@@ -130,7 +129,7 @@ const Navbar = () => {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-        </ui>
+        </ul>
       </div>
     </div>
   );
